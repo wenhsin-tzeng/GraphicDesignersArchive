@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="veronicafuerte.css">
+    <meta charset="utf-8">
+    <title>V.F.</title>
+  </head>
+  <body>
+    <p class="gd">GRAPHIC DESIGNERS</p>
+    <p class="aor">AN ONLINE ARCHIVE</p>
+    <a href="index.html"><button type="button" name="button" class="mainpage"></button></a>
+    <div class="artist_name">
+      <span id="name_V">v</span>er<span id="name_O">o</span>nica f<span id="name_U">u</span>ert<span id="name_E">e</span>
+    </div>
+    <div class="work_1">
+      <img src="vf1.png" alt="">
+    </div>
+    <div class="work_2">
+      <img src="vf2.png" alt="">
+    </div>
+    <div class="work_3">
+      <img src="vf3.png" alt="">
+    </div>
+    <div class="work_4">
+      <img src="vf.jpeg" alt="">
+    </div>
+    <div class="description">
+      Hey Studio and its Creative Director Verònica Fuerte have been at the forefront of the Barcelona and world design scene since its inception in 2007. For the past 14 years, Fuerte has been producing beautiful work that has become a part of her home city. They’ve even branded Christmas in the Catalan capital! Fuerte and her team at Hey work across art direction, branding, packaging, campaign, illustration, print, typography and digital. They’ve also worked for global brands like Uniqlo and Huawei but also independent smaller Barcelonian brands like Caravelle and Madrid’s Hola Coffee. To top it off, Hey opened a shop in Barcelona’s Gothic Quarter in 2019.
+    </div>
+    <a href="https://heystudio.es/" class="artist_link">Visit Veronica Fuerte's Website</a>
+    <script type="text/javascript">
+      document.querySelector("#name_V").addEventListener("mouseenter", function () {
+        document.querySelector(".work_1").style.display = "block";
+        document.querySelector(".artist_name").style.color = "#BE3F1F";
+      })
+      document.querySelector("#name_V").addEventListener("mouseout", function () {
+        document.querySelector(".work_1").style.display = "none";
+        document.querySelector(".artist_name").style.color = "#008B61";
+      })
+
+      document.querySelector("#name_U").addEventListener("mouseenter", function () {
+        document.querySelector(".work_2").style.display = "block";
+        document.querySelector(".artist_name").style.color = "#E9D4BE";
+      })
+      document.querySelector("#name_U").addEventListener("mouseout", function () {
+        document.querySelector(".work_2").style.display = "none";
+        document.querySelector(".artist_name").style.color = "#008B61";
+      })
+
+      document.querySelector("#name_O").addEventListener("mouseenter", function () {
+        document.querySelector(".work_3").style.display = "block";
+        document.querySelector(".artist_name").style.color = "#F4F4F4";
+      })
+      document.querySelector("#name_O").addEventListener("mouseout", function () {
+        document.querySelector(".work_3").style.display = "none";
+        document.querySelector(".artist_name").style.color = "#008B61";
+      })
+
+      document.querySelector("#name_E").addEventListener("mouseenter", function () {
+        document.querySelector(".work_4").style.display = "block";
+        document.querySelector(".artist_name").style.color = "#E94337";
+      })
+      document.querySelector("#name_E").addEventListener("mouseout", function () {
+        document.querySelector(".work_4").style.display = "none";
+        document.querySelector(".artist_name").style.color = "#008B61";
+      })
+
+    </script>
+  </body>
+</html>

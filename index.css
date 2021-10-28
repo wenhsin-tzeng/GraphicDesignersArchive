@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.gd {
+  position: absolute;
+  left: -11px;
+  top: 110px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: 0.16em;
+  transform: rotate(-90deg);
+  animation-name: appearlater;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  color: transparent;
+}
+
+.aor {
+  position: absolute;
+  left: 56px;
+  top: 85px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: right;
+  letter-spacing: 0.16em;
+  transform: rotate(-90deg);
+  animation-name: appearlater;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  color: transparent;
+}
+
+@keyframes appearlater {
+  from {
+    color: transparent;
+  }
+  to {
+    color: white;
+  }
+}
+
+.picture {
+  position: absolute;
+  width: 1125px;
+  height: 147px;
+  left: 240px;
+  top: 29px;
+  background: url();
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.flex-container > div {
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+}
+
+@keyframes extend {
+  from {
+    height: 30px;
+  }
+  to {
+    height: 123px;
+  }
+}
+
+.flex-item1 {
+  background-color: #D6172A;
+  animation-name: change-color1, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color1 {
+  from {
+    background-color: #D6172A;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item1:hover {
+  background-color: #D6172A;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+.flex-item2 {
+  background-color: #008B61;
+  animation-name: change-color2, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color2 {
+  from {
+    background-color: #008B61;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item2:hover {
+  background-color: #008B61;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+.flex-item3 {
+  background-color: #F6EE1D;
+  animation-name: change-color3, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color3 {
+  from {
+    background-color: #F6EE1D;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item3:hover {
+  background-color: #F6EE1D;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+.flex-item4 {
+  background-color: #AE5818;
+  animation-name: change-color4, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color4 {
+  from {
+    background-color: #AE5818;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item4:hover {
+  background-color: #AE5818;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+.flex-item5 {
+  background-color: #BDE7FF;
+  animation-name: change-color5, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color5 {
+  from {
+    background-color: #BDE7FF;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item5:hover {
+  background-color: #BDE7FF;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+.flex-item6 {
+  background-color: #3C64F1;
+  animation-name: change-color6, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color6 {
+  from {
+    background-color: #3C64F1;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item6:hover {
+  background-color: #3C64F1;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+.flex-item7 {
+  background-color: #E498DD;
+  animation-name: change-color7, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color7 {
+  from {
+    background-color: #E498DD;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item7:hover {
+  background-color: #E498DD;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+.flex-item8 {
+  background-color: #763A9B;
+  animation-name: change-color8, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color8 {
+  from {
+    background-color: #763A9B;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item8:hover {
+  background-color: #763A9B;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+.flex-item9 {
+  background-color: #0060F0;
+  animation-name: change-color9, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color9 {
+  from {
+    background-color: #0060F0;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item9:hover {
+  background-color: #0060F0;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+.flex-item10 {
+  background-color: #FB66EC;
+  animation-name: change-color10, extend;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  height: 30px;
+  width: 30px;
+  margin: 12px;
+  border: none;
+  top: 0px;
+  position: relative;
+}
+
+@keyframes change-color10 {
+  from {
+    background-color: #FB66EC;
+  }
+  to {
+    background-color: white;
+  }
+}
+
+.flex-item10:hover {
+  background-color: #FB66EC;
+  animation-fill-mode: none;
+  height: 123px;
+  top: -34px;
+}
+
+
+
+.names {
+  position: relative;
+  color: transparent;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 186.69%;
+  text-align: center;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  width: 1272px;
+  top: -150px;
+  margin: auto;
+  animation-name: appearlater;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.picture {
+  position: absolute;
+  width: 1125px;
+  height: 147px;
+  left: 240px;
+  top: 29px;
+  display: none;
+  object-fit: cover;
+}
